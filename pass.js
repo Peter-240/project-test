@@ -17,9 +17,10 @@ function increament() {
   }
 function saveData() {
   let saveButtonElement = document.querySelector('.save-btn')
-  let data = count + "-";
+  let data = count + " -  ";
 
   saveButtonElement.innerHTML += data;
+  
   }
 
 

@@ -20,7 +20,7 @@ margin-left: 100px;
   position: relative;
 }
 .count-increament{
-  font-size: 23px;
+  font-size: 50px;
   color: blue;
   font-weight: bold;
 
@@ -37,9 +37,10 @@ margin-left: 250px;
   margin-left: 200px;
   margin-bottom: 30px;
    padding: 10px 40px;
+   background-color: red;
 }
 .add-value:hover{
-  background-color:rgb(240, 10, 24);
+  background-color:rgb(10, 64, 240);
   cursor: pointer;
   border: none;
   transition: .15s;
