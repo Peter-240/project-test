@@ -1,6 +1,7 @@
-let inputEl = inputElement.value
-let buttonEl = input.value;
-let data = buttonEl;
-function update() {
-  document.querySelector('enter-details').innerHTML=`${data}`
+function inputUpdate() {
+  let inputElement = document.querySelector(".input-btn");
+  let name = inputElement.value;
+  console.log(name);
+
+  document.querySelector(".enter-details").innerHTML = `${name}`;
 }

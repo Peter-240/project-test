@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="styleSheet" href="practice.css">
+    <title>Practice DOM</title></head>
+  <body>
+    <div class="container">
+      <div class="heading"> <h3>Favourite Movie Franchise</h3></div>
+      <div class="element">
+        <ul>
+          <li class="list-items"> The Matrix</li>
+          <li  class="list-items"> Star Wars</li>
+          <li  class="list-items"> Harry Potter</li>
+          <li  class="list-items"> Lord of the Rings</li>
+          <li  class="list-items"> Marvel</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="todoList">
+    <div class="todo-dec"> 
+      <p class="title">make subscribe button</p>
+      <button 
+      onclick="
+      subscribe();
+       " class="js-subscribe-btn">subscribe</button>
+      <p class="title">Make your todo schedule</p>
+      <input class="input-todo-element">
+      <input type="date" class="js-duedate-input">
+      <button onclick="
+      saveTodo();
+      ">ADD TODO</button>
+      <p class="todo-display title"></p>
+   </div>
+    </div>
+
+    
+    <div class="shipping-container">
+      <div class="shipping-element">
+      <p class="Amazon-shipping-title">Amazon Shipping Calculator</p>
+       <p class="title">order under $40 = +$10 shipping</p>
+         <p class="title">order over $40 = free shipping</p>
+           <input class="input-shipping">
+       <button onclick="
+    calculate();
+    " class="shipping-btn">Calculate</button>
+    <p class="payment-method title"></p></div></div>
+    
+    <script src="practice.js"></script>
+  </body>
+</html>

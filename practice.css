@@ -1,0 +1,78 @@
+body{
+  background-color: rgb(3, 25, 47);
+}
+.container{
+  border: 0.07em  solid white;
+  width: 220px;
+  padding-left: 10px;
+  padding-right: 5px;
+  margin-left: 100px;
+  margin-top: 50px;
+  border-radius:5px ;
+}
+.heading{
+  color: white;
+  font-size: 15px;
+  
+}
+.element ul li {
+  background-color: #fff;
+  width: 200px;
+  margin-left: -40px;
+ 
+
+}
+.list-items{
+ 
+ list-style: none;
+ align-items: center;
+ text-align: center;
+color: rgb(57, 55, 55);
+font-size: 12px;
+padding-bottom: 5px;
+padding-top: 5px;
+ 
+}
+ .element ul li{
+ border-bottom: 1.5px solid rgb(93, 91, 91);
+}
+
+/*------------------------------for todo-----------------*/
+.title{
+color: #fff;
+font-size: 20px;
+text-transform: capitalize;
+font-weight: bold;
+}
+.todoList{
+  border: 0.1em solid white;
+  margin-top: 10px;
+  width: 400px;
+  height: 320px;
+  margin-left: 100px;
+  border-radius: 5px;
+}
+.todo-dec{
+  padding-right:0px;
+  margin-left: 10px;
+}
+
+/*------------------shipping css---------------*/
+
+.shipping-container{
+  border: 0.1em solid white;
+  margin-top: 10px;
+  width: 400px;
+  height: 220px;
+  margin-left: 100px;
+  border-radius: 5px;
+}
+.shipping-element{
+  padding-left: 10px;
+}
+.Amazon-shipping-title{
+  color: green;
+  font-size: 20px;
+text-transform: capitalize;
+font-weight: bold;
+}
